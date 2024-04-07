@@ -1,0 +1,55 @@
+/* styles.css */
+
+.wallet-box {
+  
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(248, 243, 243, 0.1);
+
+  text-align: center;
+  max-width: 200px;
+  flex: 1;
+  padding: 3rem;
+  background-color: rgba(240, 248, 255, 0.785);
+  border-radius: 10px;
+
+}
+
+
+.wallet-header h2 {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.wallet-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.wallet-button:hover {
+  background-color: #45a049;
+}
+
+.wallet-status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.wallet-address {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+@media (max-width:768px) {
+  .wallet-box{
+    margin-left:2rem ;
+  }
+}

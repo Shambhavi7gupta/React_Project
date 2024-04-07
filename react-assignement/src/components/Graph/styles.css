@@ -1,0 +1,35 @@
+.population-graph-container {
+  width: 80%; /* Adjust width as needed */
+  flex: 1;
+  padding: 2rem;
+  background-color: rgba(240, 248, 255, 0.785);
+  border-radius: 8px; /* Center the graph */
+}
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:22px ;
+  color: azure;
+  margin-bottom: 20px;
+}
+.chart-wrapper canvas {
+  max-width: 100%; /* Ensure the chart fits its container */
+ 
+}
+
+.chart-wrapper {
+  padding-top: 20px;
+  max-width: 1000px; /* Adjust max width as needed */
+  margin: auto; /* Center the chart */
+  background-color: whitesmoke;
+  border-radius: 5px;
+ 
+
+}
+
+@media (max-width:768px) {
+  .population-graph-container{
+    margin-left:2rem ;
+  }
+}
