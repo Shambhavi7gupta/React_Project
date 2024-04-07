@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Web3 from "web3";
 import detectEthereumProvider from "@metamask/detect-provider";
-import "./styles.css"; // Import the CSS file
+import "./styles.css";
 
 const MetaMaskWallet = () => {
   const [walletStatus, setWalletStatus] = useState("");

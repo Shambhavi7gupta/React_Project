@@ -24,7 +24,7 @@
 }
 
 
-/* Media query for responsive layout (optional) */
+
 @media (max-width: 768px) {
   .app-container{
     height: 100%;
